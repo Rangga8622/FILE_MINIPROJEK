@@ -1,5 +1,10 @@
-<header id="header" class="header fixed-top d-flex align-items-center">
+<?php
+$id = $_REQUEST['id'];
+$model = new Member();
+$rs  = $model->getMember($id); // Panggil fungsi untuk mendapatkan detail mahasiswa
+?>
 
+<header id="header" class="header fixed-top d-flex align-items-center">
   <div class="d-flex align-items-center justify-content-between">
     <a href="index.php?hal=mahasiswa_list" class="logo d-flex align-items-center">
       <img src="assets/img/logo_my.png" alt="">
@@ -7,9 +12,6 @@
     </a>
     <i class="bi bi-list toggle-sidebar-btn"></i>
   </div><!-- End Logo -->
-
-
-
   <nav class="header-nav ms-auto">
     <ul class="d-flex align-items-center">
       <li class="nav-item dropdown pe-2">
@@ -18,7 +20,11 @@
       <li class="nav-item dropdown pe-3">
 
         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-          <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+        <?php if (!empty($rs['foto'])) : ?>
+            <img src="image/dataimg/<?= $rs['foto'] ?>" class="rounded-circle"">
+          <?php else : ?>
+            <img src="image/nophoto.jpg" class="rounded-circle">
+          <?php endif; ?>
           <span class="d-none d-md-block dropdown-toggle ps-2"><?= $_SESSION['MEMBER']['username'] ?></span>
         </a><!-- End Profile Iamge Icon -->
 
