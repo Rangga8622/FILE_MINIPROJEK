@@ -116,7 +116,7 @@ if (isset($_SESSION['MEMBER']) && $_SESSION['MEMBER']['role'] != 'mahasiswa') {
 
                 <!-- Social Media -->
                 <div class="row mb-3">
-                  <label for="inputText" class="col-sm-2 col-form-label">Social Meida</label>
+                  <label for="inputText" class="col-sm-2 col-form-label">Social Media</label>
                   <div class="col-sm-10">
                     <input type="text" class="form-control" name="sosmed" value="<?= isset($row['sosmed']) ? $row['sosmed'] : '' ?>">
                   </div>

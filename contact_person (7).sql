@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 28 Okt 2023 pada 08.19
+-- Waktu pembuatan: 29 Okt 2023 pada 09.09
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -107,8 +107,22 @@ INSERT INTO `mahasiswa` (`id`, `id_agama`, `nama`, `gender`, `tempat_lahir`, `ta
 (53, 1, 'Febi Febiyanti', 'P', 'Garut', '2003-02-27', 'Jl. KH Hasan Arif, Kp. Pagersari RT.01 RW.06 Kec. Banyuresmi Kab. Garut', '085860257486', 'febi20289ti@student.nurulfikri.ac.id', 'Sekolah Tinggi Teknologi Terpadu Nurul Fikri', '_ffyyyyyyy', 'Foto Dede Feby - Febi Febiyanti.jpg', '\"Terkadang, perubahan adalah kunci untuk pertumbuhan.\"'),
 (54, 1, 'Nasyath Faykar', 'L', 'Pekalongan', '2002-11-30', 'Jalan KH Ahmad Dahlan Tirto Gg. 7 No. 31', '088806923500', 'nasyathfaykar@gmail.com', 'STMIK WIDYA PRATAMA PEKALONGAN', 'faykarr_', 'nasyath_faykar - 0194 Nasyath Faykar.jpg', 'Learn to be best rather than yesterday'),
 (55, 1, 'Maulidhiansyah Bayu Setiawan', 'L', 'Jakarta', '2003-05-10', 'Jl. Jantung Harapan RT 08/07 Kel.pabuaran Kec.cibinong', '089507631813', 'maulidhiansyahbayu@gmail.com', 'STT Terpadu Nurul Fikri', '@inibayou', 'Maulidhiansyah Bayu.jpg', 'Hiduplah seperti larry'),
-(56, 2, 'RANGGA EKKLESIA GABRIEL ANUGRAHNU', 'L', 'Palangka Raya', '2002-06-08', 'Jl.Perkebunan komp perikanan', '083143508517', 'ranggaekkle20020806@gmail.com', 'UNIVERSITAS PALANGKARAYA', 'rangga_e.g.a', 'rangga.jpg', 'Ngoding Tanpa Error impossible!'),
-(57, 1, 'Muhammad Alif Firdaus Arizona', 'L', 'Surabaya', '2002-03-14', 'Perum TNI AL Candi', '082132306322', '20410100080@dinamika.ac.id', 'Universitas Dinamika', '@afarizona_', 'Muhammad Alif Firdaus Arizona.jpeg', 'Aut viam inveniam aut faciam');
+(56, 2, 'Rangga Ekklesia Gabriel Anugrahnu ', 'L', 'Palangka Raya', '2002-06-08', 'Jl.Perkebunan komp perikanan', '083143508517', 'ranggaekkle20020806@gmail.com', 'UNIVERSITAS PALANGKARAYA', 'rangga_e.g.a', 'rangga.jpg', 'Ngoding Tanpa Error impossible!'),
+(57, 1, 'Muhammad Alif Firdaus Arizona', 'L', 'Surabaya', '2002-03-14', 'Perum TNI AL Candi', '082132306322', '20410100080@dinamika.ac.id', 'Universitas Dinamika', '@afarizona_', 'Muhammad Alif Firdaus Arizona.jpeg', 'Aut viam inveniam aut faciam'),
+(60, 1, 'Nasrul', 'L', 'null', '1980-10-10', 'null', '085780844411', 'nasrul99@gmail.com', 'Sekolah Tinggi Teknologi Terpadu Nurul Fikri', 'null', '', 'null'),
+(61, 1, 'Fathan Mubin', 'L', 'null', '1997-09-21', 'null', '085882103423', 'fathan@nurulfikri.ac.id', 'Sekolah Tinggi Teknologi Terpadu Nurul Fikri', '', '', ''),
+(62, 1, 'BAGUS FEBRIYANTO', 'L', 'Pati', '2002-02-02', 'Kab. Pati, Kec. Tayu, desa Pondowan', '08978270522', 'bagusfebriyanto19@gmail.com', 'Universitas Muria Kudus', '@__imnotbgs', '202051117 - Bagus Febriyanto.jpg', '\"Itami o kanjiro   Itami o kangaero  Itami o uketore   Itami o shire   Koko yori.... sekai ni itami o..... SHINRA TENSEI!!!! ???\"'),
+(63, 1, 'Riyanto', 'L', 'null', '0000-00-00', '', '088225448521', 'alfyansyahriyan31@gmail.com', 'Universitas Sains Alqur an', '', '', ''),
+(65, 1, 'Muhammad Anwar Fauzan', 'L', 'Serang', '2003-01-15', 'Bumi Agung Permai 1', '085939410330', 'anwar.fauzan98@gmail.com', 'Universitas Banten Jaya', '@anwarfz__', 'IMG-20220828-WA0015 - Anura.jpg', 'Your future created by what you do today not tomorrow'),
+(66, 1, 'BAGUS MUHAMMAD MUMTAZA', 'L', 'Pati', '2003-08-20', 'Indonesia, Jawa Tengah, Kota Pekalongan, Jl. KHM. Mansyur Bendan GG. 7', '085875282178', 'bagusbendan07@gmail.com', 'STMIK Widya Pratama', '@mmtza.mm', '', 'Tetap semangat dan jangan menyerah apapun yang terjadi'),
+(67, 2, 'Erick Darmawan Boeniarto', 'L', 'Kota Serang', '2003-08-13', 'Kota Serang', '085282568210', 'erickdarmawanboeniarto130803@gmail.com', 'Universitas Banten Jaya', '@erick.db13', 'erick - Erick Darmawan.jpg', 'tetap Semangat'),
+(69, 2, 'LORA LORENSA MANAFE', 'P', 'Sulamu', '2001-10-30', 'Sulamu', '081353024713', 'lhomanafe@gmail.com', 'Politeknik Negeri Kupang', '@Lhomnfe30 ', '', 'Jalan mu memang beda dengan mereka, tetapi kamu akan lebih kuat dari mereka.'),
+(70, 1, 'WINANDA AFRILIA HARISYA', 'P', 'Sungai penuh ', '2002-04-26', 'Kapalo koto, Pauh, Padang', '082258875076', 'winandaafrilia0304@gmail.com', 'Universitas Andalas', '@_winandaah', '', '\"Walaupun hidup tidak menyenangkan akhir akhir ini, tapi setidaknya masih layak di jalani dan dicoba\"'),
+(71, 2, 'MUKHAMMAD RIFKHI RIFANGGA', 'L', 'kudus', '2002-05-13', 'Sunggingan RT 03 RW 03 Kota Kudus ', '08812670156', 'rifkhirifangga@gmail.com', 'Universitas Muria Kudus', '@rifkhi.rifangga_', ' Rifkhi Rifangga.jpg', 'Tawa adalah cara terbaik untuk lupa '),
+(72, 1, 'Safitri', 'P', 'Jakarta', '2003-10-16', 'Jakarta ', '0816655958', 'safitri@students.amikom.ac.id', 'Universitas Amikom Yogyakarta', 'safitri16__', '', 'Nothing '),
+(73, 2, 'JHOFY RICARDO P. SITINDAON', 'L', '', '0000-00-00', '', '082218994202', 'jhofyricardo@icloud.com', 'Politeknik Negeri Sriwijaya', '', '', ''),
+(75, 1, 'Riski Eggy Saputro', 'L', '', '0000-00-00', '', '081911049214', 'eggy.riski27@gmail.com', 'Universitas Banten Jaya', '', '', ''),
+(76, 1, 'Mahez Arya Panangsang', 'L', '', '0000-00-00', '', '081298020766', 'mahezarya23@gmail.com', 'Universitas Banten Jaya', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -131,9 +145,7 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `fullname`, `email`, `username`, `password`, `role`, `foto`) VALUES
-(7, 'Rangga Ekklesia Gabriel Anugrahnu', 'ranggaekkle20020806@gmail.com', 'REGA', '957878207727874160e1d1456eade423141c9eb7', 'admin', NULL),
-(8, 'user tes', 'user@gmail.com', 'user', '7eb98c0d17ab6ab8b0fa2b38a5eaa421fd516df9', 'mahasiswa', ''),
-(10, 'RX-King ', 'admin@email.com', 'qwer', 'e30788bcffc7832e586af5934155c326f6552770', 'admin', '');
+(11, 'Rangga Ekklesia Gabriel Anugrahnu', 'ranggaekkle20020806@gmail.com', 'rangga', '16d44ff7ef308125c2d4800d0f3ff2eec42fbd4d', 'admin', NULL);
 
 --
 -- Indexes for dumped tables
@@ -181,13 +193,13 @@ ALTER TABLE `agama`
 -- AUTO_INCREMENT untuk tabel `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT untuk tabel `member`
 --
 ALTER TABLE `member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
