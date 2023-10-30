@@ -42,7 +42,7 @@
       ?>
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.php?hal=mahasiswa_list">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span>
+          <i class="bi bi-layout-text-window-reverse"></i><span>Data Person</span>
         </a>
       </li>
     <?php } ?>
